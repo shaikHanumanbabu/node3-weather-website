@@ -1,8 +1,3 @@
-console.log('Clien side javascript loaded!');
-
-
-
-
 const weathrForm = document.querySelector('form');
 
 const search = document.querySelector('input');
