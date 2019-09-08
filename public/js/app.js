@@ -23,8 +23,8 @@ weathrForm.addEventListener('submit', (e)=>{
                 } else {
                     console.log(data);
                     
-                    // messageOne.textContent =  summary;
-                    // messageTwo.textContent = temperature;
+                    messageOne.textContent =  data.summary;
+                    messageTwo.textContent = data.temperature;
                 }
             })
             // console.log(res);
